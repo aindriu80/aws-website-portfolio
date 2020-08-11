@@ -90,7 +90,6 @@ h6 {
   display: grid;
   text-align: center;
   align-content: center;
-  border: 2px dashed lightcoral;
   min-height: 10em;
 }
 
@@ -103,6 +102,7 @@ h6 {
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3em 30em;
   grid-template-areas:
     'nav-wrapper nav-wrapper'
     'left-column right-column';
@@ -110,16 +110,12 @@ h6 {
 
 .nav-wrapper {
   grid-area: nav-wrapper;
-  grid-area: nav-wrapper;
-  border: 1px dashed lightcoral;
 }
 .left-column {
   grid-area: left-column;
-  border: 1px dashed lightcoral;
 }
 .right-column {
   grid-area: right-column;
-  border: 1px dashed lightcoral;
 }
 
 @media screen and (max-width: 1200px) {
