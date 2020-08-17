@@ -27,6 +27,7 @@ h3,
 h4,
 h5,
 h6,
+h7,
 strong {
   color: var(--mainText);
   font-family: 'Russo One', sans-serif;
@@ -74,6 +75,10 @@ h5 {
 
 h6 {
   font-size: 16px;
+}
+
+h7 {
+  font-size: 14px;
 }
 
 .s1 {
@@ -171,6 +176,14 @@ h6 {
   grid-area: left-column;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.middle-column {
+  grid-area: middle-column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /* 53:19 */
