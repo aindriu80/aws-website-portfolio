@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="resources/css/default.css" />
+  <link id="theme-style" rel="stylesheet" href="resources/css/purple.css" />
+  <link rel="icon" type="image/png" href="resources/img/profile-picture.gif">
   <title>Aindriú Mac Giolla Eoin</title>
 </head>
 
@@ -38,10 +40,10 @@
           </h5>
 
           <div id="theme-options-wrapper">
-            <div id="light-mode" class="theme-dot"></div>
-            <div id="blue-mode" class="theme-dot"></div>
-            <div id="green-mode" class="theme-dot"></div>
-            <div id="purple-mode" class="theme-dot"></div>
+            <div data-mode="light" id="light-mode" class="theme-dot"></div>
+            <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+            <div data-mode="green" id="green-mode" class="theme-dot"></div>
+            <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
           </div>
 
           <p id="settings-note">
@@ -186,6 +188,7 @@
       </form>
     </div>
   </section>
+  <script type="text/javascript" src="resources/js/script.js"></script>
 </body>
 
 </html>

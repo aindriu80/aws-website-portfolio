@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+body * {
+  transition: 0.3s
+}
+
 h1,
 h2,
 h3,
@@ -47,6 +51,7 @@ textarea {
 a {
   text-decoration: none;
   color: #12a3b8;
+  font-family: 'Roboto Mono', monospace;
 }
 
 ul {
@@ -130,6 +135,10 @@ h7 {
   justify-content: space-between;
   align-items: center;
   background-color: var(--mainColor);
+}
+
+#navigation a {
+  color: var(--mainText);
 }
 
 #navigation {
